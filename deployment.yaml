@@ -4,7 +4,7 @@ metadata:
   name: cal-deploy
   namespace: dev-namespace
 spec:
-  replicas: 2
+  replicas: 6
   selector:
     matchLabels:
       app: cal-app
